@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      eleventy:
+        specifier: ^1.0.7
+        version: 1.0.7
+
+packages:
+
+  eleventy@1.0.7:
+    resolution: {integrity: sha512-yVxIVr8YDcf+bz3EHghKQo6sAC5NExaAkL2DST1tqRmImYgmcmE1F4BRZvNZpn6eKu2Pz8j2mfoKbCd1SuTikg==}
+
+snapshots:
+
+  eleventy@1.0.7: {}

@@ -1,0 +1,10 @@
+{
+  "name": "@tuist/fuckingswiftconcurrency",
+  "private": true,
+  "type": "module",
+  "author": "oss@tuist.io",
+  "license": "MIT",
+  "devDependencies": {
+    "eleventy": "^1.0.7"
+  }
+}
