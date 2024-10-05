@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#mise description="Installs the project dependencies"
+
+pnpm -C $MISE_PROJECT_ROOT install

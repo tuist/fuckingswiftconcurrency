@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#mise description="Builds the project"
+
+pnpm -C $MISE_PROJECT_ROOT exec eleventy --input=src --output=_site
