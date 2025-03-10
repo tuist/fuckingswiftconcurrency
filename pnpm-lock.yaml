@@ -88,8 +88,8 @@ packages:
     resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.14.0:
-    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+  acorn@8.14.1:
+    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -728,7 +728,7 @@ snapshots:
   '@11ty/dependency-tree-esm@1.0.2':
     dependencies:
       '@11ty/eleventy-utils': 1.0.3
-      acorn: 8.14.0
+      acorn: 8.14.1
       dependency-graph: 1.0.0
       normalize-path: 3.0.0
 
@@ -873,9 +873,9 @@ snapshots:
 
   acorn-walk@8.3.4:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
 
-  acorn@8.14.0: {}
+  acorn@8.14.1: {}
 
   ansi-regex@5.0.1: {}
 
@@ -1034,7 +1034,7 @@ snapshots:
 
   esm-import-transformer@3.0.2:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
 
   esprima@4.0.1: {}
 
@@ -1250,7 +1250,7 @@ snapshots:
 
   node-retrieve-globals@6.0.0:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.14.1
       acorn-walk: 8.3.4
       esm-import-transformer: 3.0.2
 
