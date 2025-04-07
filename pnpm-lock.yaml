@@ -434,8 +434,8 @@ packages:
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
-  luxon@3.6.0:
-    resolution: {integrity: sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==}
+  luxon@3.6.1:
+    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
     engines: {node: '>=12'}
 
   markdown-it@14.1.0:
@@ -787,7 +787,7 @@ snapshots:
       js-yaml: 4.1.0
       kleur: 4.1.5
       liquidjs: 10.21.0
-      luxon: 3.6.0
+      luxon: 3.6.1
       markdown-it: 14.1.0
       micromatch: 4.0.8
       minimist: 1.2.8
@@ -1177,7 +1177,7 @@ snapshots:
 
   lru-cache@10.4.3: {}
 
-  luxon@3.6.0: {}
+  luxon@3.6.1: {}
 
   markdown-it@14.1.0:
     dependencies:
