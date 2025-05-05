@@ -33,8 +33,8 @@ packages:
     resolution: {integrity: sha512-nULO91om7vQw4Y/UBjM8i7nJ1xl+/nyK4rImZ41lFxiY2d+XUz7ChAj1CDYFjrLZeu0utAYJTZ45LlcHTkUG4g==}
     engines: {node: '>=12'}
 
-  '@11ty/eleventy-utils@2.0.2':
-    resolution: {integrity: sha512-Lh/QxwoG10ElkO4WZlwlEqM/d58sreVfJ+I8bcL+QEwb5cGNHTuOlBnyZ2zcBKJohHINuo4zGMVrN83LBLIAaw==}
+  '@11ty/eleventy-utils@2.0.5':
+    resolution: {integrity: sha512-onKf5DMcS5Ebs5z40XfTFVu1IWFd6ILmtQE9kpduBNKLdA5SnC22JUREMaFzRpvXSo5PnOvlttSpfyh7EDkqag==}
     engines: {node: '>=18'}
 
   '@11ty/eleventy@3.0.0':
@@ -702,8 +702,8 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
 
-  ws@8.18.1:
-    resolution: {integrity: sha512-RKW2aJZMXeMxVpnZ6bck+RswznaxmzdULiBr6KY7XkTnW8uvt0iT9H5DkHUChXrc+uurzwa0rVI16n/Xzjdz1w==}
+  ws@8.18.2:
+    resolution: {integrity: sha512-DMricUmwGZUVr++AEAe2uiVM7UoO9MAVZMDu05UQOaUII0lp+zOzLLU4Xqh/JvTqklB1T4uELaaPBKyjE1r4fQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -729,7 +729,7 @@ snapshots:
 
   '@11ty/eleventy-dev-server@2.0.8':
     dependencies:
-      '@11ty/eleventy-utils': 2.0.2
+      '@11ty/eleventy-utils': 2.0.5
       chokidar: 3.6.0
       debug: 4.4.0
       finalhandler: 1.3.1
@@ -740,7 +740,7 @@ snapshots:
       send: 1.2.0
       ssri: 11.0.0
       urlpattern-polyfill: 10.0.0
-      ws: 8.18.1
+      ws: 8.18.2
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -748,7 +748,7 @@ snapshots:
 
   '@11ty/eleventy-plugin-bundle@3.0.6(posthtml@0.16.6)':
     dependencies:
-      '@11ty/eleventy-utils': 2.0.2
+      '@11ty/eleventy-utils': 2.0.5
       debug: 4.4.0
       posthtml-match-helper: 2.0.3(posthtml@0.16.6)
     transitivePeerDependencies:
@@ -759,7 +759,7 @@ snapshots:
     dependencies:
       normalize-path: 3.0.0
 
-  '@11ty/eleventy-utils@2.0.2': {}
+  '@11ty/eleventy-utils@2.0.5': {}
 
   '@11ty/eleventy@3.0.0':
     dependencies:
@@ -1416,4 +1416,4 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.0
 
-  ws@8.18.1: {}
+  ws@8.18.2: {}
