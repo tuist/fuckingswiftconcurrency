@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@11ty/eleventy':
         specifier: ^3.0.0
-        version: 3.1.0
+        version: 3.1.1
 
 packages:
 
@@ -33,8 +33,8 @@ packages:
     resolution: {integrity: sha512-6QE+duqSQ0GY9rENXYb4iPR4AYGdrFpqnmi59tFp9VrleOl0QSh8VlBr2yd6dlhkdtj7904poZW5PvGr9cMiJQ==}
     engines: {node: '>=18'}
 
-  '@11ty/eleventy@3.1.0':
-    resolution: {integrity: sha512-yR8zE+i5GKXTlR4I6Aj8dywI7f2/6uGhJPwgbH4vgh+XcZQ9zba9UMS/1Lyvkbl3UySRSAmlzeYiXi1ypV6oZg==}
+  '@11ty/eleventy@3.1.1':
+    resolution: {integrity: sha512-nsMCW44WSYzpi6JSQ1ar/wlotj/2cxuP4AABX5Dxqwol3IQ3SkEMgcAugP1t1mthv5I0kIB9lql1Jv/lhUHIkg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -587,7 +587,7 @@ snapshots:
 
   '@11ty/eleventy-utils@2.0.7': {}
 
-  '@11ty/eleventy@3.1.0':
+  '@11ty/eleventy@3.1.1':
     dependencies:
       '@11ty/dependency-tree': 4.0.0
       '@11ty/dependency-tree-esm': 2.0.0
